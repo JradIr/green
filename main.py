@@ -1,3 +1,6 @@
+from pdb import main
+
+
 sentence = input("Provide a random sentence: ")
 
 print(sentence)
@@ -9,3 +12,6 @@ while True:
         break
     else:
         print(sentence)
+
+if __name__ == "__main__":
+    main()
