@@ -1,6 +1,7 @@
 order = input("What is your order: ").strip().lower()
 price = float(input("What is your price: "))
 
+#Checking the specific order
 try:
   match order:
     case "coke":
@@ -13,6 +14,7 @@ try:
     price = price * 0.2
 except TypeError as e:
   print(f"the error: {e}")
-  
+
+#Printing the result
 print(f"Your order is {order}, pay at the counter.")
 print(f"${price:.2f} dollars is the price for {order}")
