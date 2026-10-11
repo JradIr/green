@@ -1,3 +1,6 @@
+import logging
+logging.basicConfig(level=logging.INFO, format"%(levelname)s, %(message)s")
+
 order = input("What is your order: ").strip().lower()
 price = float(input("What is your price: "))
 
@@ -18,3 +21,5 @@ except TypeError as e:
 #Printing the result
 print(f"Your order is {order}, pay at the counter.")
 print(f"${price:.2f} dollars is the price for {order}")
+
+logging.info("this is a log.")
