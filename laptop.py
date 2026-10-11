@@ -5,6 +5,11 @@ order = input("What is your order: ").strip().lower()
 price = float(input("What is your price: "))
 
 #Checking the specific order
+def process_order(order_name: str, base_price: float) -> float:
+  final_price = base_price
+  if final_price < 100:
+    final_price = final_price - (final_price * 0.2)
+  return final_price
   
 
 if __name__ == "__main__":
