@@ -31,3 +31,10 @@ print(f"Your order is {order}, pay at the counter.")
 print(f"${price:.2f} dollars is the price for {order}")
 
 logging.info("this is a log.")
+
+x = 0
+while True:
+  x += 1
+  print(x)
+  if x >= 10:
+    break
