@@ -15,6 +15,8 @@ def process_order(order_name: str, base_price: float) -> float:
             logging.info("You chose burger.")
         case "fries":
             logging.info("You chose fries.")
+        case "rice":
+            logging.info("You chose rice.")
         case _:
             logging.info("The default order.")
     final_price = base_price
