@@ -3,7 +3,7 @@ import logging
 logging.basicConfig(level=logging.INFO, format="%(levelname)s, %(message)s")
 
 
-def process_order(order_name: str, base_price: float) -> float:
+def order_processing(order_name: str, base_price: float) -> float:
     match order_name:
         case "coke":
             logging.info("You chose coke.")
@@ -45,7 +45,7 @@ if __name__ == "__main__":
     order_input = input("What is your order: ").strip().lower()
     try:
         price_input = float(input("What is your price: "))
-        calculated_price = process_order(order_input, price_input)
+        calculated_price = order_processing(order_input, price_input)
         print_receipt(order_input, calculated_price)
         run_counter()
     except ValueError as e:
