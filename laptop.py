@@ -37,7 +37,7 @@ def run_counter() -> None:
 def print_receipt(order: str, price: float) -> None:
     print("-" * 20)
     print(f"Order: {order}")
-    print(f"Total: ${price:.2f}")
+    print(f"Total is: ${price:.2f}")
     print("-" * 20)
 
 
