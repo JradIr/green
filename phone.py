@@ -10,3 +10,11 @@ def myfunction(message: str):
 result = myfunction("God")
 print(result)
 logging.info("ending session")
+
+num=0
+while True:
+  if num < 5:
+    num += 1
+    print(num)
+  else:
+    break
