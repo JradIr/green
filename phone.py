@@ -9,7 +9,7 @@ def myfunction(message: str):
   return {message}
 result = myfunction("God")
 print(result)
-logging.info("ending session")
+logging.info("starting session")
 
 num=0
 while True:
