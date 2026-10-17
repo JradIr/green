@@ -20,6 +20,6 @@ while True:
     break
 
 def get_initial(initial: str):
-  return f"This is your initial: {initial} "
+  return f"Initial: {initial} "
 
 print(get_initial("Argayosa"))
