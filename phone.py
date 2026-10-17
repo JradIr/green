@@ -18,3 +18,8 @@ while True:
     print(num)
   else:
     break
+
+def get_initial(initial: str):
+  return f"This is your initial: {initial} "
+
+print(get_initial("Argayosa"))
