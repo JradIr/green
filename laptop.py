@@ -41,6 +41,9 @@ def print_receipt(order: str, price: float) -> None:
     print(f"Total is: ${price:.2f}")
     print("-" * 20)
 
+def interact(action):
+    return f"You will {action}"
+
 
 if __name__ == "__main__":
     order_input = input("What is your order: ").strip().lower()
