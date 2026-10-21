@@ -17,6 +17,8 @@ def order_processing(order_name: str, base_price: float) -> float:
             logging.info("You chose fries.")
         case "rice":
             logging.info("You chose rice.")
+        case "adobo":
+            logging.info("ansarap ng adobo")
         case _:
             logging.info("The default order.")
     final_price = base_price
