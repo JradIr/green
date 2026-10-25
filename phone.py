@@ -23,6 +23,7 @@ def get_initial(initial: str):
   return f"Initial: {initial} "
 
 print(get_initial("Argayosa"))
+print(get_initial("De La Rosa"))
 
 #logging for end
 logging.info("ending...")
