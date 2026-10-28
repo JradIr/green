@@ -27,3 +27,6 @@ print(get_initial("De La Rosa"))
 
 #logging for end
 logging.info("ending...")
+
+if __name__ == "__main__":
+  logging.info("start")
