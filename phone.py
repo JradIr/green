@@ -30,3 +30,4 @@ logging.info("ending...")
 
 if __name__ == "__main__":
   logging.info("start")
+  logging.info("dgroup session")
